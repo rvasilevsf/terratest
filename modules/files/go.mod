@@ -1,4 +1,4 @@
-module github.com/gruntwork-io/terratest/modules/files
+module github.com/rvasilevsf/terratest/modules/files
 
 go 1.13
 

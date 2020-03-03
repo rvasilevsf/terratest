@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/random"
+	"github.com/rvasilevsf/terratest/modules/logger"
+	"github.com/rvasilevsf/terratest/modules/random"
 	"github.com/stretchr/testify/require"
 )
 

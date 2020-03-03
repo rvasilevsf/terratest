@@ -8,12 +8,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gruntwork-io/terratest/modules/aws"
-	"github.com/gruntwork-io/terratest/modules/files"
-	"github.com/gruntwork-io/terratest/modules/k8s"
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/packer"
-	"github.com/gruntwork-io/terratest/modules/terraform"
+	"github.com/rvasilevsf/terratest/modules/aws"
+	"github.com/rvasilevsf/terratest/modules/files"
+	"github.com/rvasilevsf/terratest/modules/k8s"
+	"github.com/rvasilevsf/terratest/modules/logger"
+	"github.com/rvasilevsf/terratest/modules/packer"
+	"github.com/rvasilevsf/terratest/modules/terraform"
 	"github.com/stretchr/testify/require"
 )
 

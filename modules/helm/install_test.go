@@ -16,9 +16,9 @@ import (
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	http_helper "github.com/gruntwork-io/terratest/modules/http-helper"
-	"github.com/gruntwork-io/terratest/modules/k8s"
-	"github.com/gruntwork-io/terratest/modules/random"
+	http_helper "github.com/rvasilevsf/terratest/modules/http-helper"
+	"github.com/rvasilevsf/terratest/modules/k8s"
+	"github.com/rvasilevsf/terratest/modules/random"
 	"github.com/stretchr/testify/require"
 )
 

@@ -8,15 +8,15 @@ import (
 	"sort"
 	"testing"
 
-	gwErrors "github.com/gruntwork-io/gruntwork-cli/errors"
+	gwErrors "github.com/rvasilevsf/gruntwork-cli/errors"
 	homedir "github.com/mitchellh/go-homedir"
 	restclient "k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/clientcmd"
 	"k8s.io/client-go/tools/clientcmd/api"
 
-	"github.com/gruntwork-io/terratest/modules/environment"
-	"github.com/gruntwork-io/terratest/modules/files"
-	"github.com/gruntwork-io/terratest/modules/logger"
+	"github.com/rvasilevsf/terratest/modules/environment"
+	"github.com/rvasilevsf/terratest/modules/files"
+	"github.com/rvasilevsf/terratest/modules/logger"
 )
 
 // LoadConfigFromPath will load a ClientConfig object from a file path that points to a location on disk containing a

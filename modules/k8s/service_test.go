@@ -18,8 +18,8 @@ import (
 	"github.com/stretchr/testify/require"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	http_helper "github.com/gruntwork-io/terratest/modules/http-helper"
-	"github.com/gruntwork-io/terratest/modules/random"
+	http_helper "github.com/rvasilevsf/terratest/modules/http-helper"
+	"github.com/rvasilevsf/terratest/modules/random"
 )
 
 func TestGetServiceEReturnsErrorForNonExistantService(t *testing.T) {

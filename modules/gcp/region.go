@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gruntwork-io/terratest/modules/collections"
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/random"
+	"github.com/rvasilevsf/terratest/modules/collections"
+	"github.com/rvasilevsf/terratest/modules/logger"
+	"github.com/rvasilevsf/terratest/modules/random"
 	"google.golang.org/api/compute/v1"
 )
 

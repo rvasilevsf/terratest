@@ -10,7 +10,7 @@ import (
 func TestBuild(t *testing.T) {
 	t.Parallel()
 
-	tag := "gruntwork-io/test-image:v1"
+	tag := "rvasilevsf/test-image:v1"
 	text := "Hello, World!"
 
 	options := &BuildOptions{

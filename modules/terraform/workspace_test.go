@@ -3,7 +3,7 @@ package terraform
 import (
 	"testing"
 
-	"github.com/gruntwork-io/terratest/modules/files"
+	"github.com/rvasilevsf/terratest/modules/files"
 	"github.com/stretchr/testify/assert"
 )
 

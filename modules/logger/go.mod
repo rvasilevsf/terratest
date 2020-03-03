@@ -1,3 +1,3 @@
-module github.com/gruntwork-io/terratest/modules/logger
+module github.com/rvasilevsf/terratest/modules/logger
 
 go 1.13

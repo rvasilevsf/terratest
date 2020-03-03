@@ -1,4 +1,4 @@
-module github.com/gruntwork-io/terratest/modules/random
+module github.com/rvasilevsf/terratest/modules/random
 
 go 1.13
 

@@ -4,8 +4,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gruntwork-io/gruntwork-cli/errors"
-	"github.com/gruntwork-io/terratest/modules/files"
+	"github.com/rvasilevsf/gruntwork-cli/errors"
+	"github.com/rvasilevsf/terratest/modules/files"
 	"github.com/stretchr/testify/require"
 )
 

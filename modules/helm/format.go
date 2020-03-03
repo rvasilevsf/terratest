@@ -5,11 +5,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gruntwork-io/gruntwork-cli/collections"
-	"github.com/gruntwork-io/gruntwork-cli/errors"
+	"github.com/rvasilevsf/gruntwork-cli/collections"
+	"github.com/rvasilevsf/gruntwork-cli/errors"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gruntwork-io/terratest/modules/files"
+	"github.com/rvasilevsf/terratest/modules/files"
 )
 
 // formatSetValuesAsArgs formats the given values as command line args for helm using the given flag (e.g flags of

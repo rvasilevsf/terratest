@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/shell"
+	"github.com/rvasilevsf/terratest/modules/logger"
+	"github.com/rvasilevsf/terratest/modules/shell"
 	"github.com/stretchr/testify/require"
 )
 
